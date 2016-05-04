@@ -1,5 +1,5 @@
 include README.txt
-recursive-include xstatic/pkg/angular-schema-form *
+recursive-include xstatic/pkg/angular_schema_form *
 
 global-exclude *.pyc
 global-exclude *.pyo
