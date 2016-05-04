@@ -4,7 +4,7 @@ XStatic resource package
 See package 'XStatic' for documentation and basic tools.
 """
 
-DISPLAY_NAME = 'Angular Schema Form' # official name, upper/lowercase allowed, no spaces
+DISPLAY_NAME = 'Angular-Schema-Form' # official name, upper/lowercase allowed, no spaces
 PACKAGE_NAME = 'XStatic-%s' % DISPLAY_NAME # name used for PyPi
 
 NAME = __name__.split('.')[-1] # package name (e.g. 'foo' or 'foo_bar')

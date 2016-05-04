@@ -1,4 +1,4 @@
-from xstatic.pkg import angular as xs
+from xstatic.pkg import angular_schema_form as xs
 
 # The README.txt file should be written in reST so that PyPI can use
 # it to generate your project's PyPI page. 
