@@ -1,0 +1,61 @@
+Source: python-xstatic-angular-schema-form
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Ivan Udovichenko <iudovichenko@mirantis.com>,
+           Thomas Goirand <zigo@debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               openstack-pkg-tools (>= 52~),
+               python-all,
+               python-setuptools,
+               python3-all,
+               python3-setuptools,
+               yui-compressor,
+Build-Conflicts: python-xstatic,
+                 python3-xstatic
+Standards-Version: 3.9.8
+Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-xstatic-angular-schema-form.git/
+Vcs-Git: https://anonscm.debian.org/git/openstack/python-xstatic-angular-schema-form.git
+Homepage: http://schemaform.io/
+
+Package: python-xstatic-angular-schema-form
+Architecture: all
+Depends: libjs-angularjs (>= 1.2.24),
+         libjs-angular-schema-form,
+         libjs-objectpath,
+         libjs-tv4,
+         python-xstatic,
+         ${python:Depends},
+         ${misc:Depends}
+Description: Angular-Schema-Form (XStatic packaging standard) - Python 2.7
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ For a description of angular-schema-form, see the libjs-angular-schema-form package.
+ .
+ This package contains the Python 2.7 module.
+
+Package: python3-xstatic-angular-schema-form
+Architecture: all
+Depends: libjs-angularjs (>= 1.2.24),
+         libjs-angular-schema-form,
+         libjs-objectpath,
+         libjs-tv4,
+         python3-xstatic,
+         ${python3:Depends},
+         ${misc:Depends}
+Description: Angular-Schema-Form (XStatic packaging standard) - Python 3.x
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ For a description of angular-schema-form, see the libjs-angular-schema-form package.
+ .
+ This package contains the Python 3.x module.
+
