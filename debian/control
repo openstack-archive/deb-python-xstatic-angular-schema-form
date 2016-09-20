@@ -36,7 +36,8 @@ Description: Angular-Schema-Form (XStatic packaging standard) - Python 2.7
  can depend on in a portable, virtualenv-friendly way instead of using embedded
  copies.
  .
- For a description of angular-schema-form, see the libjs-angular-schema-form package.
+ For a description of angular-schema-form, see the libjs-angular-schema-form
+ package.
  .
  This package contains the Python 2.7 module.
 
@@ -58,6 +59,7 @@ Description: Angular-Schema-Form (XStatic packaging standard) - Python 3.x
  can depend on in a portable, virtualenv-friendly way instead of using embedded
  copies.
  .
- For a description of angular-schema-form, see the libjs-angular-schema-form package.
+ For a description of angular-schema-form, see the libjs-angular-schema-form
+ package.
  .
  This package contains the Python 3.x module.
