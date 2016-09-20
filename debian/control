@@ -3,7 +3,7 @@ Section: python
 Priority: optional
 Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
 Uploaders: Ivan Udovichenko <iudovichenko@mirantis.com>,
-           Thomas Goirand <zigo@debian.org>
+           Thomas Goirand <zigo@debian.org>,
 Build-Depends: debhelper (>= 9),
                dh-python,
                openstack-pkg-tools (>= 52~),
@@ -11,9 +11,8 @@ Build-Depends: debhelper (>= 9),
                python-setuptools,
                python3-all,
                python3-setuptools,
-               yui-compressor,
 Build-Conflicts: python-xstatic,
-                 python3-xstatic
+                 python3-xstatic,
 Standards-Version: 3.9.8
 Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-xstatic-angular-schema-form.git/
 Vcs-Git: https://anonscm.debian.org/git/openstack/python-xstatic-angular-schema-form.git
@@ -21,13 +20,15 @@ Homepage: http://schemaform.io/
 
 Package: python-xstatic-angular-schema-form
 Architecture: all
-Depends: libjs-angularjs (>= 1.2.24),
-         libjs-angular-schema-form,
+Depends: libjs-angular-schema-form,
+         libjs-angularjs (>= 1.2.24),
          libjs-objectpath,
          libjs-tv4,
          python-xstatic,
+         python-xstatic-angular-schema-form,
+         python-xstatic-tv4,
+         ${misc:Depends},
          ${python:Depends},
-         ${misc:Depends}
 Description: Angular-Schema-Form (XStatic packaging standard) - Python 2.7
  XStatic is a Python web development tool for handling required static data
  files from external projects, such as CSS, images, and JavaScript. It provides
@@ -41,13 +42,15 @@ Description: Angular-Schema-Form (XStatic packaging standard) - Python 2.7
 
 Package: python3-xstatic-angular-schema-form
 Architecture: all
-Depends: libjs-angularjs (>= 1.2.24),
-         libjs-angular-schema-form,
+Depends: libjs-angular-schema-form,
+         libjs-angularjs (>= 1.2.24),
          libjs-objectpath,
          libjs-tv4,
          python3-xstatic,
+         python3-xstatic-angular-schema-form,
+         python3-xstatic-tv4,
+         ${misc:Depends},
          ${python3:Depends},
-         ${misc:Depends}
 Description: Angular-Schema-Form (XStatic packaging standard) - Python 3.x
  XStatic is a Python web development tool for handling required static data
  files from external projects, such as CSS, images, and JavaScript. It provides
@@ -58,4 +61,3 @@ Description: Angular-Schema-Form (XStatic packaging standard) - Python 3.x
  For a description of angular-schema-form, see the libjs-angular-schema-form package.
  .
  This package contains the Python 3.x module.
-

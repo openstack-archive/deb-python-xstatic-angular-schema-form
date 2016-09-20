@@ -1,18 +1,14 @@
 #!/usr/bin/make -f
 
 UPSTREAM_GIT := https://github.com/json-schema-form/angular-schema-form.git
--include /usr/share/openstack-pkg-tools/pkgos.make
+include /usr/share/openstack-pkg-tools/pkgos.make
 
 %:
 	dh $@ --buildsystem=python_distutils --with python2,python3
 
 override_dh_auto_install:
 	pkgos-dh_auto_install
-
-override_dh_auto_build:
-	yui-compressor -o xstatic/pkg/angular_schema_form/data/bootstrap-decorator.min.js xstatic/pkg/angular_schema_form/data/bootstrap-decorator.js
-#	yui-compressor -o xstatic/pkg/angular_schema_form/data/schema-form.min.js xstatic/pkg/angular_schema_form/data/schema-form.js
-	dh_auto_build -O--buildsystem=python_distutils
+	rm -rf $(CURDIR)/debian/python*xstatic-angular-schema-form/usr/lib/python*/dist-packages/xstatic/pkg/angular_schema_form/data
 
 override_dh_auto_test:
 ifeq (,$(findstring nocheck, $(DEB_BUILD_OPTIONS)))
