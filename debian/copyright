@@ -3,7 +3,8 @@ Upstream-Name: XStatic-Angular-Schema-Form
 Source: http://schemaform.io/
 
 Files: *
-Copyright: (c) 2016, Rob Cresswell <robert.cresswell@outlook.com>
+Copyright: (c) 2016, Rob Cresswell
+           (c) 2010-2014 Google, Inc. http://angularjs.org
 License: Expat
 
 Files: xstatic/pkg/angular_schema_form/*

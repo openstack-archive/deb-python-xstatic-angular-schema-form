@@ -1,3 +1,9 @@
+python-xstatic-angular-schema-form (0.8.13.0-2) unstable; urgency=medium
+
+  * d/copyright: Fix Licence issues.
+
+ -- Ivan Udovichenko <iudovichenko@mirantis.com>  Wed, 21 Sep 2016 17:44:46 +0300
+
 python-xstatic-angular-schema-form (0.8.13.0-1) unstable; urgency=medium
 
   * Initial release. (Closes: #837815)
