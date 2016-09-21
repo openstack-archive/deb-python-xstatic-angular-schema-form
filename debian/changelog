@@ -1,7 +1,5 @@
 python-xstatic-angular-schema-form (0.8.13.0-1) unstable; urgency=medium
 
   * Initial release. (Closes: #837815)
-  * d/rules: YUI-compressor fails to minify 
-      xstatic/pkg/angular_schema_form/data/schema-form.js
 
  -- Ivan Udovichenko <iudovichenko@mirantis.com>  Thu, 15 Sep 2016 12:49:09 +0300
