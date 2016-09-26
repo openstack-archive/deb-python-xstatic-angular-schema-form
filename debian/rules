@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-UPSTREAM_GIT := https://github.com/json-schema-form/angular-schema-form.git
+UPSTREAM_GIT := https://github.com/robcresswell/xstatic-angular-schema-form
 include /usr/share/openstack-pkg-tools/pkgos.make
 
 %:
