@@ -1,6 +1,9 @@
 python-xstatic-angular-schema-form (0.8.13.0-2) UNRELEASED; urgency=medium
 
   * Fixed upstream VCS in debian/rules.
+  * Using OpenStack's Gerrit as VCS URLs.
+  * Point .gitreview to OpenStack's Gerrit packaging-deb.
+  * Add .gitreview to extend-diff-ignore.
 
  -- Thomas Goirand <zigo@debian.org>  Mon, 26 Sep 2016 16:29:29 +0200
 

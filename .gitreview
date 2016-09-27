@@ -1,4 +1,5 @@
 [gerrit]
 host=review.openstack.org
 port=29418
-project=openstack/xstatic-angular-schema-form.git
+project=openstack/deb-python-xstatic-angular-schema-form.git
+defaultbranch=debian/newton
