@@ -5,6 +5,7 @@ python-xstatic-angular-schema-form (0.8.13.0-2) UNRELEASED; urgency=medium
   * Point .gitreview to OpenStack's Gerrit packaging-deb.
   * Add .gitreview to extend-diff-ignore.
   * Add debian/source.lintian-overrides.
+  * Fixed path of BASE_DIR to match libjs-angular-schema-form.
 
  -- Thomas Goirand <zigo@debian.org>  Mon, 26 Sep 2016 16:29:29 +0200
 

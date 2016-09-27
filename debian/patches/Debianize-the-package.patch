@@ -19,7 +19,7 @@ index 5e17115..c4f0806 100644
 +#BASE_DIR = join(dirname(__file__), 'data')
  # linux package maintainers just can point to their file locations like this:
 -#BASE_DIR = '/usr/share/javascript/angular-schema-form'
-+BASE_DIR = '/usr/share/javascript/angular-schema-form'
++BASE_DIR = '/usr/share/javascript/angular.js'
  
  LOCATIONS = {
      # CDN locations (if no public CDN exists, use an empty dict)
