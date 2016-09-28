@@ -1,4 +1,4 @@
-python-xstatic-angular-schema-form (0.8.13.0-2) UNRELEASED; urgency=medium
+python-xstatic-angular-schema-form (0.8.13.0-2) unstable; urgency=medium
 
   * Fixed upstream VCS in debian/rules.
   * Using OpenStack's Gerrit as VCS URLs.

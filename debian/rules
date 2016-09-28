@@ -8,6 +8,7 @@ include /usr/share/openstack-pkg-tools/pkgos.make
 
 override_dh_auto_install:
 	pkgos-dh_auto_install
+	rm -rf $(CURDIR)/debian/python*-xstatic*/usr/lib/python*/dist-packages/*.pth
 	rm -rf $(CURDIR)/debian/python*xstatic-angular-schema-form/usr/lib/python*/dist-packages/xstatic/pkg/angular_schema_form/data
 
 override_dh_auto_test:
